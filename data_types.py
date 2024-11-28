@@ -1,32 +1,45 @@
-apples = 20 # integer
+# Integer
+apples = 20
 
-marks = 60.5 # float
+# Float
+marks = 60.5
 
-name = 'shubham' #String
+# String
+name = 'shubham'
 
-israining = False #boolen
 
+# Boolean
+israining = False
+
+# Type of each variable
 # print(type(apples))
 # print(type(name))
 # print(type(marks))
 # print(type(israining))
 
-a =20
-b =30
+# Basic arithmetic operations
+a = 20
+b = 30
 
-c= a+b
+# addition
+c = a + b
 
+# print the result
 print(a+b)
 
+# Converting integer to float
 marks = 20
-
 marks_float = float(marks)
 
+# print the type
 print(type(marks_float))
 
+# Basic arithmetic operations
 num = 20.5
 den = 5
 
+# division
 div = num/den
 
+# print the result
 print(div)

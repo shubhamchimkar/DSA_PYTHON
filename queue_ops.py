@@ -14,6 +14,7 @@ class Queue:
         """
         Constructor
         """
+        # initializing the queue
         self.my_queue = array.array('i', [])
         self.front = -1
 
@@ -25,6 +26,7 @@ class Queue:
         if self.is_empty():
             print("Queue is empty, no front element.")
         else:
+            # return the front element
             print(self.my_queue[0])
 
 
@@ -35,6 +37,7 @@ class Queue:
         if self.is_empty():
             print("Queue is empty, no rear element.")
         else:
+            # return the rear element
             print(self.my_queue[-1])
 
 
@@ -52,6 +55,7 @@ class Queue:
         """
         Adds an element to the rear of the Queue
         """
+        # add the element at the end of the queue
         self.my_queue.append(element)
     
     def dequeue(self):
@@ -61,6 +65,7 @@ class Queue:
         if self.is_empty():
             print("Queue is empty can't dequeue")
         else:
+            # remove the element from the front of the queue
             self.my_queue.pop(0)
     
 if __name__ == "__main__":
